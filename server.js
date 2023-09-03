@@ -8,7 +8,7 @@ app.use(express.json());
 const routes = require('./routes/index');
 app.use('/api/v1', routes);
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, (err) => {
   if (err) {
     console.log('error connecting to:' + PORT);
